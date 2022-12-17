@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #1abc9c;
+}
+
+.scrollspy-example {
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+}
+
+.data-bs-spy {
+    background-color:#75f6dc;
+}
+
