@@ -5,19 +5,179 @@
 
 .container {
     background-color: #1abc9c;
+    padding: 0px;
+}
+
+/*Navigation*/
+#navbar-example2 {
+    background-image: linear-gradient(to left, white, #1abc9c);
+}
+
+a:link {
+    color:darkmagenta;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+a:hover {
+    color:darkgrey;
 }
 
 .scrollspy-example {
     text-align: center;
 }
 
+.namedescription {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Neucha', cursive;
+    color:darkmagenta;
+    text-shadow: 1px 1px black;
+    border-top: 5px solid white;
+    padding-top: 15px;
+}
+
+p {
+    font-family: arial;
+    color: darkmagenta;
+    font-size: 1.25em;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+
+.aboutme, .aspirations {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aspirations {
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
 .cardcontainer {
     display: flex;
-    flex-direction: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    background-color:#1abc9c;
 }
 
 .data-bs-spy {
-    background-color:#75f6dc;
+    border-radius: 20%;
 }
+
+.card {
+    padding: 10px;
+    border: 4px #1abc9c solid;
+    box-shadow: 3px 3px 3px black;
+}
+
+#scrollspyHeading1, #scrollspyHeading2, #scrollspyHeading3, #scrollspyHeading4 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-size: 4em;
+    color:white;
+    text-shadow: 2px 2px black;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Neucha', cursive;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+}
+
+.card-link {
+    text-decoration: none;
+    color:#1abc9c;
+    font-family: 'Neucha', cursive;
+    font-size: 1.5em;
+    text-shadow: 1px 1px black;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.container2 {
+    background-color:#1abc9c;
+}
+
+#navbar-example2 {
+    background-color:#1abc9c;    
+}
+
+.certifications {
+    font-family: arial;
+}
+
+.footercontainer {
+    background-image: radial-gradient(circle, white, #1abc9c);
+    margin-top: 50px;
+}
+
+
+
+.footer {
+    margin-top: 50px;
+}
+
+.footername {
+    margin-bottom: 0px;
+    color: darkmagenta;
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#myinfo {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.aroundtheweb {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Neucha', cursive;
+    color: darkmagenta;
+    text-align: right;
+    text-shadow: 1px 1px black;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.btn-social {
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border: 2px solid;
+    border-top-color: red;
+    border-right-color:darkblue;
+    border-bottom-color: blue;
+    border-left-color: darkorange;
+}
+
+.row {
+    text-align: right;
+}
+
+
+
+
+
+
+
 
